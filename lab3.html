@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 3</title>
+    <link rel="stylesheet" href="lab3-stylesheet.css">
+</head>
+<body>
+    <div class="header-footer">
+        <header>
+            <h1>Play Rock, Paper, Scissors!</h1>
+        </header>
+    </div>
+
+    <nav>
+        <ul>
+            <li><a href="https://www.britannica.com/science/rock-geology">Rocks</a></li>
+            <li><a href="https://www.nytimes.com/section/todayspaper">Paper</a></li>
+            <li><a href="https://www.amazon.com/scissors/s?k=scissors">Scissors</a></li>
+        </ul>
+    </nav>
+    <div class="all-content">
+        <div class="main-content">
+            <main>
+                <h2>Select Your Move</h2>
+                <div class="textbox">
+                    <label for="Player Name">Name:</label>
+                    <input type="text" id="fname" name="fname" required><br>
+                </div>
+                <label for="Choose Move">Choose Your Move:</label>
+                <select name="move" id="move">
+                    <option hidden disabled selected>Select Move</option>
+                    <option value="Rock">Rock</option>
+                    <option value="Paper">Paper</option>
+                    <option value="Scissors">Scissors</option>
+                </select>
+                <br><button type="submit">Enter</button>
+            </main>
+        </div>
+
+        <aside class="sidebar">
+            <h3>Rules:</h3>
+            <h4>Choose Rock, Paper, or Scissors</h4>
+            <h4>Here are the Winning Plays:</h4>
+            <ul>
+                <li>Rock beats Scissors</li>
+                <li>Scissors beats Paper</li>
+                <li>Paper beats Rock</li>
+            </ul>
+            
+        </aside>
+    </div>
+
+    <div class="header-footer">
+        <footer>
+            <h5>Have Fun Exploring!</h5>
+        </footer>
+    </div>
+
+</body>
+</html>
